@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '-', s: _}
-  - '~'
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -87,9 +87,9 @@ layers:
   - Ctl+X
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - INS
-  - PG UP
+  - HOME
   - $$mdi:arrow-up-bold$$
-  - PAUSE BREAK
+  - END
   - {t: '-', s: _}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
@@ -131,10 +131,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
 combos:
-- p: [34, 35]
-  k: HOME
-- p: [36, 37]
-  k: END
 - p: [49, 50]
   k: Ctl+$$mdi:arrow-right-bold$$
 - p: [47, 48]

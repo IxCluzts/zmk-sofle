@@ -60,8 +60,8 @@ layers:
   - NavNumFun
   - $$mdi:keyboard-space$$
   - '&mkp MB1'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - NavNumFun
   - {t: ']', s: '}'}
   - \
   - $$mdi:apple-keyboard-control$$
@@ -126,7 +126,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - '&mkp MB1'
-  - {t: '&mkp MB2', type: held alternate}
+  - '&mkp MB2'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN

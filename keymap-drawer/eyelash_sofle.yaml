@@ -60,7 +60,7 @@ layers:
   - NavNumFun
   - $$mdi:keyboard-space$$
   - '&mkp MB1'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: ']', s: '}'}
   - \
@@ -78,7 +78,7 @@ layers:
   - F8
   - F9
   - F10
-  - F11
+  - {t: '=', s: +}
   - KP ENTER
   - '~'
   - KP 7

@@ -55,14 +55,14 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '=', s: +}
   - NavNumFun
   - $$mdi:keyboard-space$$
   - '&mkp MB1'
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: ']', s: '}'}
+  - {t: '=', s: +}
   - \
   - $$mdi:apple-keyboard-control$$
   NavNumFun:
@@ -127,8 +127,8 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - '&mkp MB1'
   - '&mkp MB2'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP 0
+  - KP 0
   - PRINTSCREEN
 combos:
 - p: [49, 50]

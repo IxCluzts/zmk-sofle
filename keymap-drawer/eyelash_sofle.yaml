@@ -68,7 +68,7 @@ layers:
   NavNumFun:
   - F12
   - F1
-  - F2
+  - F11
   - F3
   - F4
   - F5
@@ -127,7 +127,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - '&mkp MB1'
   - '&mkp MB2'
-  - KP 0
+  - F11
   - KP 0
   - PRINTSCREEN
 combos:
@@ -137,3 +137,5 @@ combos:
   k: Ctl+$$mdi:arrow-left-bold$$
 - p: [34, 35, 36]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [11, 12]
+  k: {t: '$$mdi:minus-circle-outline$$', type: none}
